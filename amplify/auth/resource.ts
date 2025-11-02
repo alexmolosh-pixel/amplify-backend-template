@@ -9,6 +9,10 @@ export const auth = defineAuth({
     phone: true
   },
 
+  authFlows: {
+    custom: true,
+  },
+
   userAttributes: {
      phoneNumber: {
          required: true,
